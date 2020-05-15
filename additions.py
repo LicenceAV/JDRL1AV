@@ -94,6 +94,6 @@ class additions:
         presque= "[{}{}]".format('='*int(used),' '*(50-int(used))), '{}%'.format(int(percent*100))
         return ''.join(presque)
 
-if __name__ == "__main__" :
-    A=additions()
-    additions.tuto1()  
+#if __name__ == "__main__" :
+#    A=additions()
+#    additions.tuto1()  
