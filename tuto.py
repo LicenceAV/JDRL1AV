@@ -141,6 +141,3 @@ class tuto:
         input("\nJ'espère que tu as bien compris le fonctionnement de cette partie du gameplay !"
               "Amuse-toi bien sur ce JDR."
               "\n\nAppuyez sur 'Entrée' pour terminer ce tutoriel.")
-
-if __name__=='__main__':
-    A=pif()
