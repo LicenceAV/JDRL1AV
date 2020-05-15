@@ -4,6 +4,10 @@ import time
 
 class tuto:
     def tuto1(self):
+        """
+        Cette méthode ne comporte presque que des prints et des inputs pour apprendre au joueur les rouages du combat dans le jeu.
+        Le tutoriel se termine par un vrai combat.
+        """
         time.sleep(2)
         print("\nBienvenue dans le tutoriel spécialisé pour le combat."+\
                "\nTu apprendras ici comment te battre, ce qu'il se passe quand tu te bats,"
@@ -108,6 +112,10 @@ class tuto:
               "\nJe te souhaite une agréable expérience de jeu.")
     
     def tuto2(self):
+        """
+        Le tutoriel 2 comporte beaucoup de print et de input pour apprendre au joueur à échanger avec les marchands.
+        COmme pour le tutoriel de combat, ce dernier finit par un vrai échange avec le marchand.
+        """
         time.sleep(2)
         print("\nBienvenue dans ce tutoriel réservé aux marchands, dénommés nymphes.")
         input("Appuyez sur 'Entrée' pour commencer.")
